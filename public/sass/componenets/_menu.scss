@@ -1,0 +1,111 @@
+.menu
+{
+
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-image:radial-gradient($color-primary-light ,$color-primary);
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    width: 0;
+    -webkit-transition: all 600ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    transition:         all 600ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+
+
+    &__btn
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 6rem;
+        height: 6rem;
+        border-radius: 50%;
+        background-color: $color-primary;
+        position: fixed;
+        top: 8rem;
+        right: 2rem;
+        z-index: 1000000;
+        transition: all .4s;
+    }
+
+    &__icon
+    {
+        position: relative;
+        &,
+        &::before,
+        &::after
+        {
+            width: 3rem;
+            height: 2px;
+            background-color: $color-white-1;
+            display: inline-block;
+            transition: all .2s;
+        }
+
+        &::before,
+        &::after
+        {
+            position: absolute;
+            content:"";
+            left: 0;
+        }
+
+        &::before
+        {
+            top: -1rem;
+        }
+
+        &::after
+        {
+            top: 1rem;
+        }
+        transition: all .4s;
+    }
+}
+
+
+
+#click
+{
+
+}
+
+#click:checked ~ .menu-section .menu
+{
+    opacity: 1 !important;
+    width: 100% !important;
+}
+
+
+#click:checked + .menu__btn .menu__icon
+{
+    background-color: transparent;
+    &::after
+    {
+        transform: rotate(-45deg);
+        top: 0;
+    }
+
+    &::before
+    {
+        transform: rotate(45deg);
+        top: 0;
+    }
+}
+
+#click:checked + .menu__btn
+{
+    background-color: $color-footer-1;
+}
+
+
+.change
+{
+    width: 0;
+    opacity: 0;
+}

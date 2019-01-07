@@ -1,0 +1,67 @@
+.container
+{
+    height: 4000px;
+    
+}
+.about
+{
+    text-align: center;
+    position: relative;
+    width: 100%;
+    padding: 4rem 0rem;
+}
+
+.certificates
+{
+    width: 100%;
+    position: relative;
+    .btn
+    {
+        left: 50%;
+        transform: translateX(-50%) !important;
+    }
+    .buttons
+    {
+        text-align: center;
+    }
+}
+
+.team 
+{
+    padding: 8rem 0;
+    margin: 8rem 0;
+    background-color: $color-white-2;
+}
+
+
+.contact
+{
+    width: 100%;
+    padding: 8rem 0;
+    background-color: $color-footer-1;
+    color: $color-white-2;
+    text-align: center;
+
+    .headding-line
+    {
+        color:  $color-white-2;
+    }
+
+    @include media(phone)
+    {
+        padding-top: 15rem;
+        padding-bottom: 4rem;
+        margin-top: -19rem;
+    }
+}
+
+.footer-section
+{
+    padding: 1rem 0 ;
+    background-color: $color-footer-2;
+}
+
+.menu-section
+{
+    
+}

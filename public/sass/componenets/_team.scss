@@ -1,0 +1,100 @@
+.team{
+
+    background-image: url(../img/Polygon.png);
+    -webkit-clip-path: polygon(50% 0%, 100% 11%, 100% 86%, 50% 100%, 0 88%, 0 10%);
+    clip-path: polygon(50% 0%, 100% 11%, 100% 86%, 50% 100%, 0 88%, 0 10%);
+    @include media(phone)
+    {
+        -webkit-clip-path: polygon(51% 0, 100% 7%, 100% 94%, 49% 100%, 0 94%, 0 6%);
+        clip-path: polygon(51% 0, 100% 7%, 100% 94%, 49% 100%, 0 94%, 0 6%);
+    }
+    &__photo
+    {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        &--1
+        {
+        }
+
+        &--2
+        {
+        }
+
+    }
+
+    &__paragraph
+    {
+        width: 50%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    &__member-name
+    {
+        display: block;
+        font-size: $font-size-3;
+        color: $color-primary-light;
+        text-transform: uppercase;
+        font-weight: 500;
+        overflow: hidden;
+        &--1
+        {
+
+        }
+
+        &--2
+        {
+            order: -2;   
+        }
+
+    }
+
+    &__member-job
+    {
+        display:block;
+        font-size: $font-size-3;
+        color: $color-primary-2;
+        text-transform: capitalize;
+        font-weight: 500;
+        &--1
+        {
+
+        }
+
+        &--2
+        {
+            order: -1;
+        }
+    }
+    &__corner1
+    {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+    }
+
+    &__corner2
+    {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    &__corner3
+    {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+    }
+
+    &__corner4
+    {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+
+
+}

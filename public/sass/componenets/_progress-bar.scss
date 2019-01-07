@@ -1,0 +1,60 @@
+.progress-bar
+{
+    display: flex;
+    width: 50.4rem;
+    height: 3.7rem;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $color-primary;
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.4);
+    overflow: hidden;
+    @include media(tab-port)
+    {
+        width: 37rem;
+    }
+    @include media(phone)
+    {
+        width: 46.4rem;
+    }
+    &__name
+    {   
+        text-transform: uppercase;
+        display: flex;
+        justify-content: center;
+        font-size:$font-size-3;
+        color: $color-white-2;
+        font-weight: 400;
+        padding: 0.5rem 2rem;
+        height: 100%;
+        width: 25%;
+        background-image: -moz-linear-gradient( 90deg, rgb(178,132,81) 0%, rgb(234,197,152) 100%);
+        background-image: -webkit-linear-gradient( 90deg, rgb(178,132,81) 0%, rgb(234,197,152) 100%);
+        background-image: -ms-linear-gradient( 90deg, rgb(178,132,81) 0%, rgb(234,197,152) 100%);
+        box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.4);
+    }
+    &__persent
+    {
+        height: 100%;
+        background-color: $color-secondary-light-1;
+        box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.4);
+
+        &--20
+        {
+            width:culc_persent(20);     
+        }
+        &--30
+        {
+            width:culc_persent(30);         
+        }
+        &--40
+        {
+            width:culc_persent(45);
+        }
+        &--50
+        {
+            width:culc_persent(50);
+        }
+    }
+    
+}
+  

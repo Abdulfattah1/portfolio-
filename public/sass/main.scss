@@ -1,0 +1,32 @@
+@import "abstract/functions";
+@import "abstract/mixins";
+@import "abstract/variables";
+
+@import "base/base";
+@import "base/typography";
+@import "base/utilities";
+@import "base/animations";
+
+@import "pages/home";
+@import "pages/test";
+
+@import "componenets/navbar";
+@import "componenets/list";
+@import "componenets/header";
+@import "componenets/button";
+@import "componenets/about";
+@import "componenets/skills";
+@import "componenets/progress-bar";
+@import "componenets/projects";
+@import "componenets/nav-tab";
+@import "componenets/grid";
+@import "componenets/box";
+@import "componenets/polegon-row";
+@import "componenets/team";
+@import "componenets/form";
+@import "componenets/footer";
+@import "componenets/menu";
+@import "componenets/caption";
+
+
+

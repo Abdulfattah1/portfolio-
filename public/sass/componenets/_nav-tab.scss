@@ -1,0 +1,48 @@
+.nav-tab
+{
+    margin: 0 auto;
+    width: 80%;
+    height: 6.2rem;
+    display: flex;
+    background-image: -moz-linear-gradient( 90deg, rgb(178,132,81) 0%, rgb(216,172,119) 100%);
+    background-image: -webkit-linear-gradient( 90deg, rgb(178,132,81) 0%, rgb(216,172,119) 100%);
+    background-image: -ms-linear-gradient( 90deg, rgb(178,132,81) 0%, rgb(216,172,119) 100%);
+    box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.4);
+    -webkit-clip-path: polygon(100% 0, 95% 54%, 100% 100%, 0 100%, 6% 48%, 0 0);
+    clip-path: polygon(100% 0, 95% 54%, 100% 100%, 0 100%, 6% 48%, 0 0);
+    
+    @include media(phone)
+    {
+        width: 100%;
+    }
+    .list
+    {
+        margin: 0 auto;
+        &__item
+        {
+            @include media(phone)
+            {
+                &:not(:last-child)
+                {
+                    margin-right: 0.5rem;
+                }
+            }
+        }
+        &__link
+        {
+            @include media(phone)
+            {
+                font-size: 1.3rem;
+            }
+        }
+
+    }
+
+    @include media(phone)
+    {
+        -webkit-clip-path: polygon(50% 0%, 100% 0, 100% 100%, 49% 100%, 0 100%, 0 0);
+        clip-path: polygon(50% 0%, 100% 0, 100% 100%, 49% 100%, 0 100%, 0 0);
+        
+    }
+}
+  

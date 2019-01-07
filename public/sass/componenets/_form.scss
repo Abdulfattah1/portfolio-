@@ -1,0 +1,45 @@
+.form
+{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    &__input,
+    &__text-area
+    {
+        @include media(phone)
+        {
+            width: 75%;
+        }
+        font-size: $font-size-3;
+        width: 60%;
+        height: 5rem;
+        background-color: $color-footer-2;
+        border-radius: 20px;
+        display: block;
+        outline: none;
+        border: none;
+        color:$color-secondary-dark-2;
+        padding: 1.5 2rem;
+        &::-webkit-input-placeholder
+        {
+            color:$color-secondary-dark-1;
+            text-transform: uppercase;
+            font-weight: 700;
+        }
+
+        &:placeholder-shown ~ &__name
+        {
+            display: none;
+        }
+    }
+    &__text-area
+    {
+        text-transform: uppercase;
+        font-weight: 700;
+        padding: 1.5rem 2rem;
+        height: 15rem;
+        display: block;
+    }
+}

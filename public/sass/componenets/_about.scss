@@ -1,0 +1,94 @@
+.about
+{
+    position: relative;
+    &__units
+    {
+        display: flex;
+        justify-content: space-evenly;
+
+        @include media(phone)
+        {
+            flex-direction: column;
+        }
+    }
+    &__element
+    {
+        //flex: 0 0 20%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        @include media(phone)
+        {
+            margin-bottom: 3rem;
+            //flex: 0 0 50%;
+        }
+    }
+    &__box-icon
+    {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 9.5rem;
+        width: 11rem;
+        background-color: $color-primary;
+        -webkit-clip-path: polygon(30% 0%, 70% 0%, 100% 48%, 70% 100%, 30% 100%, 0 49%);
+        clip-path: polygon(30% 0%, 70% 0%, 100% 48%, 70% 100%, 30% 100%, 0 49%);
+
+        &--1
+        {
+            height: 9.5rem;
+            width: 11rem;
+        }
+        &--2
+        {
+            height: 18.6rem;
+            width: 20.6rem;
+        }
+    }
+    &__icon
+    {
+        &--1
+        {
+            width: 6.7rem;
+            height:4.2rem ;
+        }
+        &--2
+        {
+            outline-offset: 2rem;
+            width: 5.6rem;
+            height:4.2rem ;
+        }
+        &--3
+        {
+            width: 5.2rem;
+            height: 4.9rem;
+        }
+        &--4
+        {
+            width: 4.7rem;
+            height: 4.6rem;
+        }
+
+        &--5
+        {
+            width: 21.2rem;
+            height: 21.4rem;
+
+        }
+    
+    }
+
+    &__paragraph
+    {
+        font-size: $font-size-3;
+        color: $color-secondary-dark-2;
+    }
+
+    .btn
+    {
+        position: absolute;
+        left:50%;
+        transform: translateX(-50%);
+    }
+}

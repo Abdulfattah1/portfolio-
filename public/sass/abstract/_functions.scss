@@ -1,0 +1,4 @@
+@function culc_persent($width)
+{
+    @return(($width)/100)*75%;
+}

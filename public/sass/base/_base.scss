@@ -1,0 +1,45 @@
+
+
+*,
+*::after,
+*::before
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+
+html
+{
+    box-sizing: border-box;
+    font-size:62.5%;    //10/16 = 62.5% it means 1 rem = 10px;
+
+    @include media(tab-land)
+    {
+        font-size: 56.25% //1rem = 9px;
+    }
+
+    @include media(tab-port)
+    {
+        font-size: 50%; //1rem = 8px;
+    }
+
+    @include media(phone)
+    {
+        font-size: 43.75%; //1rem = 7px;
+    }
+
+    @include media(big-desktop)
+    {
+        font-size: 75%; //1rem = 75px;
+    }
+
+}
+
+body
+{
+    font-family: $font-family;
+    font-size: 1.6rem;
+    line-height: 1.6;
+}
