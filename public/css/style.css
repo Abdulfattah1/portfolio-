@@ -322,6 +322,7 @@ body{
           font-size: 1.5rem; } }
 
 .btn {
+  cursor: pointer;
   border-radius: 25px;
   box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.004);
   width: 22rem;
@@ -335,20 +336,22 @@ body{
       width: 16rem;
       height: 5rem; } }
   .btn__primary {
+    cursor: pointer;
     background-image: -moz-linear-gradient(90deg, #b28451 0%, #eac598 100%);
     background-image: -webkit-linear-gradient(90deg, #b28451 0%, #eac598 100%);
     background-image: -ms-linear-gradient(90deg, #b28451 0%, #eac598 100%);
     color: white;
     text-decoration: none;
-    transition: all .2s;
+    transition: all 0.2s;
     position: relative; }
   .btn__primary::after {
+    cursor: pointer;
     box-shadow: 0rem 0.5rem 1rem rgba(0, 0, 0, 0.5);
     background-image: -moz-linear-gradient(90deg, #b28451 0%, #eac598 100%);
     background-image: -webkit-linear-gradient(90deg, #b28451 0%, #eac598 100%);
     background-image: -ms-linear-gradient(90deg, #b28451 0%, #eac598 100%);
     color: white;
-    transition: all .2s;
+    transition: all 0.2s;
     backface-visibility: hidden;
     position: absolute;
     top: 0;
@@ -368,10 +371,12 @@ body{
         width: 16rem;
         height: 5rem; } }
   .btn .btn__text {
+    cursor: pointer;
     text-transform: uppercase;
     font-weight: 300;
     font-size: 1.5rem; }
   .btn__secondary {
+    cursor: pointer;
     border-radius: 2rem;
     color: #fff;
     font-size: 1.5rem;
@@ -380,8 +385,9 @@ body{
     text-decoration: none;
     background-color: transparent;
     border: 2px solid currentColor;
-    transition: all .5s; }
+    transition: all 0.5s; }
     .btn__secondary:hover {
+      cursor: pointer;
       background-color: #fff;
       color: #333;
       border: 2px solid #333; }
@@ -393,6 +399,7 @@ body{
         height: 1.3rem; } }
 
 .btn__tertiary {
+  cursor: pointer;
   position: relative;
   border-radius: 25px;
   box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.004);
@@ -409,12 +416,13 @@ body{
   text-decoration: none;
   color: #c69963;
   transform: scale(0) rotate(360deg);
-  transition: all .3s; }
+  transition: all 0.3s; }
   .btn__tertiary:hover {
     color: #fff;
     background-color: #b28451; }
 
 .btn__forth {
+  cursor: pointer;
   padding: 0.2rem 1.5rem;
   z-index: 10000;
   margin: 0 auto;
@@ -430,9 +438,10 @@ body{
   text-decoration: none;
   color: #c69963;
   transform: scale(0) rotate(360deg);
-  transition: all .3s;
+  transition: all 0.3s;
   margin-right: 1rem; }
   .btn__forth:hover {
+    cursor: pointer;
     color: #fff;
     background-color: #b28451; }
 
@@ -440,14 +449,17 @@ body{
   display: none; }
 
 .btn:hover::after {
+  cursor: pointer;
   opacity: 0;
   transform: scaleX(1.5) scaleY(1.5); }
 
 .btn__primary:hover {
+  cursor: pointer;
   transform: translateY(-2px);
   box-shadow: 0rem 0.5rem 1rem rgba(0, 0, 0, 0.3); }
 
 .btn__primary:active {
+  cursor: pointer;
   box-shadow: 0rem 0.5rem 1rem rgba(0, 0, 0, 0.1);
   transform: translateY(2px); }
 

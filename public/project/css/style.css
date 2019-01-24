@@ -1,0 +1,368 @@
+/*margin classes*/
+.Ml-10
+{
+    margin-left: 10px !important;
+}
+.Mt-10
+{
+    margin-top: 10px !important;
+}
+.Mr-10
+{
+    margin-right: 10px !important;
+}
+.Mb-10
+{
+    margin-bottom: 10px !important;
+}
+
+.Mx-10
+{
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+}
+.My-10
+{
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+}
+
+/*20*/
+.Ml-20
+{
+    margin-left: 20px !important;
+}
+.Mt-20
+{
+    margin-top: 20px !important;
+}
+.Mr-20
+{
+    margin-right: 20px !important;
+}
+.Mb-20
+{
+    margin-bottom: 20px !important;
+}
+
+.Mx-20
+{
+    margin-left: 20px !important;
+    margin-right: 20px !important;
+}
+.My-20
+{
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+}
+
+
+/*40*/
+.Ml-40
+{
+    margin-left: 40px !important;
+}
+.Mt-40
+{
+    margin-top: 40px !important;
+}
+.Mr-40
+{
+    margin-right: 40px !important;
+}
+.Mb-40
+{
+    margin-bottom: 40px !important;
+}
+
+.Mx-40
+{
+    margin-left: 40px !important;
+    margin-right: 40px !important;
+}
+.My-40
+{
+    margin-top: 40px !important;
+    margin-bottom: 40px !important;
+}
+/*padding classes*/
+
+/*margin classes*/
+.Pl-10
+{
+    padding-left: 10px !important;
+}
+.Pt-10
+{
+    padding-top: 10px !important;
+}
+.Pr-10
+{
+    padding-right: 10px !important;
+}
+.Pb-10
+{
+    padding-bottom: 10px !important;
+}
+
+.Px-10
+{
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+}
+.Py-10
+{
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+}
+
+
+
+/*20*/
+.Pl-20
+{
+    padding-left: 20px !important;
+}
+.Pt-20
+{
+    padding-top: 20px !important;
+}
+.Pr-20
+{
+    padding-right: 20px !important;
+}
+.Pb-20
+{
+    padding-bottom: 20px !important;
+}
+
+.Px-20
+{
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+}
+.Py-20
+{
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+}
+/*40*/
+.Pl-40
+{
+    padding-left: 40px !important;
+}
+.Pt-40
+{
+    padding-top: 40px !important;
+}
+.Pr-40
+{
+    padding-right: 40px !important;
+}
+.Pb-40
+{
+    padding-bottom: 40px !important;
+}
+
+.Px-40
+{
+    padding-left: 40px !important;
+    padding-right: 40px;
+}
+.Py-40
+{
+    padding-top: 40px !important;
+    padding-bottom: 40px !important;
+}
+
+
+
+
+/*text*/
+.H1
+{
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 1.25;
+    font-family: "Montserrat";
+}
+.H2
+{
+    font-size: 24px;
+    font-family: "Montserrat";
+    line-height: 1.417;
+}
+.H3
+{
+    font-size: 18px;
+    font-family: "Montserrat";
+    color: rgb(34, 34, 34);
+    font-weight: bold;
+    line-height: 1.887;
+    -moz-transform: matrix( 1.00014054528942,0,0,0.99920759942297,0,0);
+    -webkit-transform: matrix( 1.00014054528942,0,0,0.99920759942297,0,0);
+    -ms-transform: matrix( 1.00014054528942,0,0,0.99920759942297,0,0);
+}
+.H4
+{
+    font-size: 12px;
+    font-family: "Montserrat";
+    line-height: 2;
+
+}
+
+.text-color1
+{
+    color: #fa005e;
+}
+
+.bg-color1
+{
+    background-color:#fa005e;
+}
+
+/*Start here*/
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+#hero
+{
+    background-image: url(../img/hero.png);
+    height: 600px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#hero .nav-link
+{
+    margin-right: 49px;
+    text-transform: uppercase;
+    color:white;
+}
+
+#hero a:hover
+{
+    color: #fa005e;
+}
+
+#hero a:active
+{
+    color: #707070;
+}
+
+#hero .btn-danger
+{
+    background-color: rgb(250, 0, 94);
+}
+
+#hero .btn
+{
+    border-radius: 10px;
+}
+
+#hero .btn:hover{
+    color:white;
+    background-color: rgb(250, 0, 94,0.5);
+}
+
+.hero-text
+{
+    padding-top: 100px;
+}
+
+#Galleries
+{
+    background-color:#fa005e;
+}
+
+.MM
+{
+    margin-top: -0.5rem;
+}
+
+.MMT
+{
+    margin-bottom: -0.5rem;
+    margin-top: -1.5rem;
+}
+
+.base {
+    border-radius: 2px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 1px 6px 0px rgba(0, 0, 0, 0.71);
+  }
+  
+
+  #mySection
+  {
+      background-color: #15161f;
+  }
+
+
+  .hvr-underline-from-center:before
+  {
+      background-color: #fa005e;
+      opacity: 0.4;
+  }
+
+  .hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
+    -webkit-transform: scale(1.04);
+    transform: scale(1.04);
+  }
+  
+  .card:hover
+  {
+      cursor: pointer;
+  }
+
+@media(max-width:576px)
+{
+    .H1
+    {
+        font-size: 25px;
+    }
+    .mb-res
+    {
+        margin-bottom: 10px;
+    }
+}
+
+#footer
+{
+    background-color: #1a1c28;
+}
+
+
+
+
+@media(max-width:768px)
+{
+    .H1
+    {
+        font-size: 25px;
+    }
+    .mb-res
+    {
+        margin-bottom: 10px;
+    }
+}
+
+
+@media(max-width:992px)
+{
+    .mb-res
+    {
+        margin-bottom: 10px;
+    }
+}
+
+@media(min-width:993px)
+{
+    .mb-res
+    {
+        margin-bottom: 10px;
+    }
+}
