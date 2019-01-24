@@ -294,14 +294,6 @@ var modelControl = (function() {
     "./img/projetcs__img--5.png"
   );
   projects.types.photoshop.push(pro);
-  pro = new Project(
-    "templates",
-    "templates",
-    "html css sass",
-    "abdulfattah",
-    "./img/projetcs__img--6.png"
-  );
-  projects.types.template.push(pro);
 
   pro = new Project(
     "meanStack",
@@ -330,6 +322,16 @@ var modelControl = (function() {
     "https://socialnetwork3.herokuapp.com"
   );
   projects.types.meanStack.push(pro);
+
+  pro = new Project(
+    "templates",
+    "templates",
+    "html css sass",
+    "abdulfattah",
+    "./img/pro0.jpg",
+    "https://profolio1.herokuapp.com/project/0"
+  );
+  projects.types.template.push(pro);
 
   pro = new Project(
     "template",
