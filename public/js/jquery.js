@@ -331,7 +331,56 @@ var modelControl = (function() {
   );
   projects.types.meanStack.push(pro);
 
+  pro = new Project(
+    "template",
+    "template",
+    "html && css && bootstrap",
+    "1/1/2017",
+    "./img/pro5.jpg",
+    "https://socialnetwork3.herokuapp.com/project/:2"
+  );
   projects.types.template.push(pro);
+
+  pro = new Project(
+    "template",
+    "template",
+    "angular and node.js",
+    "1/10/2017",
+    "./img/pro4.jpg",
+    "https://socialnetwork3.herokuapp.com/project/:3"
+  );
+  projects.types.template.push(pro);
+
+  pro = new Project(
+    "template",
+    "template",
+    "angular and node.js",
+    "1/10/2017",
+    "./img/pro3.jpg",
+    "https://socialnetwork3.herokuapp.com/project/:4"
+  );
+  projects.types.template.push(pro);
+
+  pro = new Project(
+    "template",
+    "template",
+    "angular and node.js",
+    "1/10/2017",
+    "./img/pro2.jpg",
+    "https://socialnetwork3.herokuapp.com/project/:5"
+  );
+  projects.types.template.push(pro);
+
+  pro = new Project(
+    "template",
+    "template",
+    "angular and node.js",
+    "1/10/2017",
+    "./img/pro1.jpg",
+    "https://socialnetwork3.herokuapp.com/project/:6"
+  );
+  projects.types.template.push(pro);
+
   pro = new Project(
     "template",
     "template",
@@ -342,6 +391,15 @@ var modelControl = (function() {
   );
   projects.types.template.push(pro);
 
+  pro = new Project(
+    "template",
+    "template",
+    "angular and node.js",
+    "1/10/2017",
+    "./img/pro7.jpg",
+    "https://socialnetwork3.herokuapp.com/project/:1"
+  );
+  projects.types.template.push(pro);
   return {
     getCertificateList: function(type) {
       return certificates.types[type];
